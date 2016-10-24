@@ -7,7 +7,9 @@ namespace ConsoleBlogApp.SQLite
         public static void Main()
         {
             using (var db = new BloggingContext()) {
-                db.Blogs.Add(new Blog {Url = "http://blogs.msdn.com/adonet"});
+                Console.WriteLine("Type in the blog url to store:");
+                var userInput = Console.ReadLine();
+                db.Blogs.Add(new Blog {Url = userInput});
                 var count = db.SaveChanges();
                 Console.WriteLine($"{count} records saved to database");
                 Console.WriteLine();
