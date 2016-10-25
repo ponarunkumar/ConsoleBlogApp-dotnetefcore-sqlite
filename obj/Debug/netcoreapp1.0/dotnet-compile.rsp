@@ -1,5 +1,5 @@
---temp-output:C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\obj\Debug\netcoreapp1.0\
---out:C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\bin\Debug\netcoreapp1.0\ConsoleBlogApp.dll
+--temp-output:C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\obj\Debug\netcoreapp1.0\
+--out:C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\bin\Debug\netcoreapp1.0\ConsoleBlogApp-dotnetefcore-sqlite.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -9,7 +9,7 @@
 --optimize:False
 --debug-type:portable
 --emit-entry-point:True
---output-name:ConsoleBlogApp
+--output-name:ConsoleBlogApp-dotnetefcore-sqlite
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -116,10 +116,10 @@
 --reference:C:\Users\ponarunkumar\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\ponarunkumar\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\ponarunkumar\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Model.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Program.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Migrations\20161023154834_initalMigration.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Migrations\20161023154834_initalMigration.Designer.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Migrations\20161023160051_fixMigration.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Migrations\20161023160051_fixMigration.Designer.cs
-C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp\Migrations\BloggingContextModelSnapshot.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Model.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Program.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Migrations\20161023154834_initalMigration.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Migrations\20161023154834_initalMigration.Designer.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Migrations\20161023160051_fixMigration.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Migrations\20161023160051_fixMigration.Designer.cs
+C:\c#_workspace\Core\dotnet-core-sqlite\ConsoleBlogApp-dotnetefcore-sqlite\Migrations\BloggingContextModelSnapshot.cs
