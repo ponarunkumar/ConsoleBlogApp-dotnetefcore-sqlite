@@ -13,7 +13,7 @@ namespace ConsoleBlogApp.SQLite
                 var count = db.SaveChanges();
                 WriteLine($"{count} records saved to database");
                 WriteLine();
-                WriteLine("All blogs in SQLite Database:");
+                WriteLine("List of blog Urls in SQLite Database:");
                 foreach (var blog in db.Blogs)
                 {
                     WriteLine($" - {blog.Url}");
