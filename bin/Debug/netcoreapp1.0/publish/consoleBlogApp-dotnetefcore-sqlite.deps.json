@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "a24d3a4ad525d4953606a8af212b80ae37aef830"
+    "signature": "ca6f3de4fd4a7544a426582459de66ac850db6a5"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,46 +12,6 @@
         },
         "runtime": {
           "consoleBlogApp-dotnetefcore-sqlite.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Hosting.Abstractions/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "1.0.0",
-          "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Hosting.Server.Abstractions/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Abstractions/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "1.0.0",
-          "System.Text.Encodings.Web": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.AspNetCore.Http.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0",
-          "System.Net.WebSockets": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.AspNetCore.Http.Features.dll": {}
         }
       },
       "Microsoft.Data.Sqlite/1.0.0": {
@@ -75,25 +35,6 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/1.0.0-preview2-final": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design.Core": "1.0.0-preview2-final",
-          "Microsoft.Extensions.CommandLineUtils": "1.0.0"
-        },
-        "runtime": {
-          "lib/netcoreapp1.0/Microsoft.EntityFrameworkCore.Design.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Design.Core/1.0.0-preview2-final": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.0",
-          "System.Collections.NonGeneric": "4.0.1"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Design.Core.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "1.0.0",
@@ -101,14 +42,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Sqlite/1.0.0": {
@@ -138,19 +71,6 @@
           "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.CommandLineUtils/1.0.0": {
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Abstractions/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.DependencyInjection/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0"
@@ -162,14 +82,6 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/1.0.0": {
         "runtime": {
           "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Abstractions/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/1.0.0": {
@@ -230,11 +142,6 @@
           }
         }
       },
-      "System.Collections.NonGeneric/4.0.1": {
-        "runtime": {
-          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
-        }
-      },
       "System.Data.Common/4.1.0": {
         "runtime": {
           "lib/netstandard1.2/System.Data.Common.dll": {}
@@ -244,16 +151,6 @@
         "runtime": {
           "lib/netstandard1.0/System.Interactive.Async.dll": {}
         }
-      },
-      "System.Net.WebSockets/4.0.0": {
-        "runtime": {
-          "lib/netstandard1.3/System.Net.WebSockets.dll": {}
-        }
-      },
-      "System.Text.Encodings.Web/4.0.0": {
-        "runtime": {
-          "lib/netstandard1.0/System.Text.Encodings.Web.dll": {}
-        }
       }
     }
   },
@@ -262,26 +159,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Microsoft.AspNetCore.Hosting.Abstractions/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8r6qOl1jYyC523ZKM1QNl+6ijIoYWELWm0tpEWqtTIOg9DytHJWshB7usgqiuRmfHXM0EUziR6ouFY7iP7Tuzw=="
-    },
-    "Microsoft.AspNetCore.Hosting.Server.Abstractions/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sHZyhQEoW15T9E36rfdm5Ux6a6RZB0KNM79ccf2IplWASqmlRGhX4ydU3dzQRLhkHpLx16fnWOL0KScsO6BevQ=="
-    },
-    "Microsoft.AspNetCore.Http.Abstractions/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OJHlqdJOWKKBfsiVdX4Z4KCNuqvBIu6+1MVKuejRDyHnGyMkNHNoP/dtVzhPqvJXaJg9N4HlD0XNc6GDCFVffg=="
-    },
-    "Microsoft.AspNetCore.Http.Features/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6x7zgfbTo1gL9xMEb7EMO2ES/48bqwnWyfH09z+ubWhnzxdhHls8rtqstPylu5FPD9nid6Vo2pgDm5vufRAy5Q=="
     },
     "Microsoft.Data.Sqlite/1.0.0": {
       "type": "package",
@@ -293,25 +170,10 @@
       "serviceable": true,
       "sha512": "sha512-Vqg/v0cXRQZQH0gY3VHHqt0Bt5WZEkDReVpI1sNYKHVbVtnMYFKPp5SiNygosUJYrJk1rSGb8UVkplDNNUkEgg=="
     },
-    "Microsoft.EntityFrameworkCore.Design/1.0.0-preview2-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RhyjntECuOVsrKjgFog9rv+V7oBsxBNxz5NviF7uHvDDQXLyHH3os/CewQxRNsve114AQH5RX/Bww6qAXlSORQ=="
-    },
-    "Microsoft.EntityFrameworkCore.Design.Core/1.0.0-preview2-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-H3pHksGErQSEwWyvISlDYMslIXftS4XB2m0AvqBS08ECGHagh27mqm/oIyUetzzRad+C2V0zpguJmR14eMiRaA=="
-    },
     "Microsoft.EntityFrameworkCore.Relational/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-LGBab+7o0eq4C3YtvkAxK8W7Ia57eO0Ue0viQgt0STptQ2bUpLzV7q5LfbNl475rt6yTWa/vDQlYVaI64fwqdw=="
-    },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pw4EmGTp5U645is0Lyf0C6yU1uQGHVIZiRyxlDNNrRllL0ZjSFKTShv9qbE+fBpvvvArNp2HhDmP7d6vJAt0Dw=="
     },
     "Microsoft.EntityFrameworkCore.Sqlite/1.0.0": {
       "type": "package",
@@ -328,16 +190,6 @@
       "serviceable": true,
       "sha512": "sha512-6+7zTufCnZ+tfrUo7RbIRR3LB0BxwOwxfXuo0IbLyIvgoToGpWuz5wYEDfCYNOvpig9tY8FA0I1uRHYmITMXMQ=="
     },
-    "Microsoft.Extensions.CommandLineUtils/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kXJ8+YvEjp1j7ezJ7yvQMLYbRL6QlpBUjRoBfqghoe80yqZ5azYB90lL4iNeyRCznWF+cGm41aaIoFU0aOq7TQ=="
-    },
-    "Microsoft.Extensions.Configuration.Abstractions/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nJ+Et/rnDMDmGhxvFAKdN3va7y+YDPICv1nUEP8I4IKgOkWwr/dCZHMqxVhJFrkbW9ux8Kd7erC4mvxfZh0WnA=="
-    },
     "Microsoft.Extensions.DependencyInjection/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -347,11 +199,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-+XwaNo3o9RhLQhUnnOBCaukeRi1X9yYc0Fzye9RlErSflKZdw0VgHtn6rvKo0FTionsW0x8QVULhKH+nkqVjQA=="
-    },
-    "Microsoft.Extensions.FileProviders.Abstractions/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4jsqTxG3py/hYSsOtZMkNJ2/CQqPdpwyK7bDUkrwHgqowCFSmx/C+R4IzQ+2AK2Up1fVcu+ldC0gktwidL828A=="
     },
     "Microsoft.Extensions.Logging/1.0.0": {
       "type": "package",
@@ -388,11 +235,6 @@
       "serviceable": true,
       "sha512": "sha512-/5BdEFTaCziE6K5OG0bjSUhPo+LRmFcmyriFWEZNSuHaiqSp69sVngTb/Yo8mH6JykMA79BFdCBLMW+2E3pnuA=="
     },
-    "System.Collections.NonGeneric/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA=="
-    },
     "System.Data.Common/4.1.0": {
       "type": "package",
       "serviceable": true,
@@ -402,16 +244,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-UEM+WmG1Oq0bNbPx/E1jaIQ83QOrPfVDUyuYBtG6D6DpB77ytv9flPterMujumpHuoRjSc0ilSB8w41fQc05dw=="
-    },
-    "System.Net.WebSockets/4.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2KJo8hir6Edi9jnMDAMhiJoI691xRBmKcbNpwjrvpIMOCTYOtBpSsSEGBxBDV7PKbasJNaFp1+PZz1D7xS41Hg=="
-    },
-    "System.Text.Encodings.Web/4.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TWZnuiJgPDAEEUfobD7njXvSVR2Toz+jvKWds6yL4oSztmKQfnWzucczjzA+6Dv1bktBdY71sZW1YN0X6m9chQ=="
     }
   }
 }
